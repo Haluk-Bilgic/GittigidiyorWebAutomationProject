@@ -1,0 +1,10 @@
+2021-12-19 11:33:37 INFO  Log4j:9 - Test is Starting...
+2021-12-19 11:33:41 INFO  Log4j:15 - Opening HomePage
+2021-12-19 11:33:45 INFO  Log4j:15 - Opening SecondPage
+2021-12-19 11:33:48 INFO  Log4j:15 - Verifying SecondPage
+2021-12-19 11:33:48 INFO  Log4j:15 - Selecting product
+2021-12-19 11:33:55 INFO  Log4j:15 - Typing products information and price to file
+2021-12-19 11:33:56 INFO  Log4j:15 - The Product adding to Sepet
+2021-12-19 11:34:02 INFO  Log4j:15 - Verifying prices
+2021-12-19 11:34:09 INFO  Log4j:15 - Sepet emptying
+2021-12-19 11:34:18 INFO  Log4j:12 - Test is Ending...
