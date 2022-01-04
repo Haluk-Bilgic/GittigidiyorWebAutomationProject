@@ -14,6 +14,7 @@ public class SecondSearchResultsPage extends BasePage{
     JavascriptExecutor js;
 
     public SecondSearchResultsPage(WebDriver driver){
+        super(driver);
         this.driver=driver;
         PageFactory.initElements(driver,this);
 

@@ -65,3 +65,13 @@
 2022-01-04 19:36:46 INFO  Log4j:15 - Verifying prices
 2022-01-04 19:36:53 INFO  Log4j:15 - Sepet emptying
 2022-01-04 19:37:01 INFO  Log4j:12 - Test is Ending...
+2022-01-04 19:46:53 INFO  Log4j:9 - Test is Starting...
+2022-01-04 19:46:54 INFO  Log4j:15 - Opening HomePage
+2022-01-04 19:46:58 INFO  Log4j:15 - Opening SecondPage
+2022-01-04 19:47:02 INFO  Log4j:15 - Verifying SecondPage
+2022-01-04 19:47:02 INFO  Log4j:15 - Selecting product
+2022-01-04 19:47:08 INFO  Log4j:15 - Typing products information and price to file
+2022-01-04 19:47:08 INFO  Log4j:15 - The Product adding to Sepet
+2022-01-04 19:47:14 INFO  Log4j:15 - Verifying prices
+2022-01-04 19:47:21 INFO  Log4j:15 - Sepet emptying
+2022-01-04 19:47:29 INFO  Log4j:12 - Test is Ending...

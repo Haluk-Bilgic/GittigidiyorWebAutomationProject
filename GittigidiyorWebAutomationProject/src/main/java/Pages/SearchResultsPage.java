@@ -12,6 +12,7 @@ public class SearchResultsPage extends BasePage{
     JavascriptExecutor js;
 
     public SearchResultsPage(WebDriver driver){
+        super(driver);
         this.driver=driver;
         PageFactory.initElements(driver,this);
     }

@@ -18,6 +18,7 @@ public class ProductPage extends BasePage{
     JavascriptExecutor js;
 
     public ProductPage(WebDriver driver){
+        super(driver);
         this.driver=driver;
         PageFactory.initElements(driver,this);
     }
