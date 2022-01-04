@@ -1,5 +1,6 @@
 package TestAutomation;
 
+import Helper.BrowserSetup;
 import Pages.HomePage;
 import Pages.ProductPage;
 import Pages.SearchResultsPage;
@@ -8,10 +9,9 @@ import org.junit.AfterClass;
 import org.junit.BeforeClass;
 import org.junit.Test;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
+
 import utilities.Log4j;
 
-import java.util.concurrent.TimeUnit;
 
 public class GittigidiyorTest {
 
@@ -24,10 +24,7 @@ public class GittigidiyorTest {
 
     @BeforeClass
     public static void setUp() {
-        System.setProperty("webdriver.chrome.driver","C:/Program Files/selenium/chromeDriver/chromedriver.exe");
-        driver=new ChromeDriver();
-        driver.manage().window().maximize();
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+       driver= BrowserSetup.startBrowser("chrome","https://www.gittigidiyor.com/");
     }
     @Test
     public void test() throws InterruptedException{
