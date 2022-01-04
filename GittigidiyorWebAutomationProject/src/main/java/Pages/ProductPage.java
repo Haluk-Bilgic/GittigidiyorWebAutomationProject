@@ -42,8 +42,8 @@ public class ProductPage extends BasePage{
 
 
     public void ProductInfoWriteToFile() {
-        File myObj = new File("C:\\Users\\ahbil\\IdeaProjects\\" +
-                "GittigidiyorProject\\src\\main\\java\\utilities\\filename.txt");
+        File myObj = new File("C:\\Users\\ahbil\\my\\GittigidiyorWebAutomationProject\\" +
+                "GittigidiyorWebAutomationProject\\src\\main\\java\\utilities\\filename.txt");
         try {
             FileWriter myWriter = new FileWriter(myObj);
             myWriter.write("Product price:"+Productprice.getText()+"\n");
