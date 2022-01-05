@@ -9,9 +9,10 @@ import org.junit.AfterClass;
 import org.junit.BeforeClass;
 import org.junit.Test;
 import org.openqa.selenium.WebDriver;
-
+import org.openqa.selenium.chrome.ChromeDriver;
 import utilities.Log4j;
 
+import java.util.concurrent.TimeUnit;
 
 public class GittigidiyorTest {
 
@@ -24,7 +25,7 @@ public class GittigidiyorTest {
 
     @BeforeClass
     public static void setUp() {
-       driver= BrowserSetup.startBrowser("chrome","https://www.gittigidiyor.com/");
+        driver= BrowserSetup.startBrowser("chrome","https://www.gittigidiyor.com/");
     }
     @Test
     public void test() throws InterruptedException{
@@ -58,9 +59,9 @@ public class GittigidiyorTest {
 
         productPage.clickAddSepet();
 
-        Log4j.info("Verifying prices");
+        // Log4j.info("Verifying prices");
 
-       // productPage.verifyPrices();
+        //  productPage.verifyPrices();
         productPage.artır();
 
         Log4j.info("Sepet emptying");
@@ -68,13 +69,13 @@ public class GittigidiyorTest {
         productPage.deleteSepet();
         productPage.verifySepetIsEmpty();
 
-   }
+    }
     @AfterClass
     public static void tearDown() throws InterruptedException {
         Log4j.endLog("Test is Ending");
-      Thread.sleep(3000);
-      driver.quit();
+        Thread.sleep(3000);
+        driver.quit();
 
-     }
+    }
 
 }

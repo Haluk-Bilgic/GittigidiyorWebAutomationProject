@@ -17,7 +17,7 @@ public class BrowserSetup {
             driver=new ChromeDriver();
 
         }
-        if(browserName.equalsIgnoreCase("firefox")){
+        else if(browserName.equalsIgnoreCase("firefox")){
             System.setProperty("webdriver.gecko.driver", "C:/Program Files/selenium/firefoxDriver/geckodriver.exe");
             driver=new FirefoxDriver();
         }

@@ -15,9 +15,7 @@ public class SecondSearchResultsPage extends BasePage{
 
     public SecondSearchResultsPage(WebDriver driver){
         super(driver);
-        this.driver=driver;
         PageFactory.initElements(driver,this);
-
     }
    @FindBy(xpath = "//a[@title='2. sayfa']")
     private WebElement title;
@@ -29,7 +27,7 @@ public class SecondSearchResultsPage extends BasePage{
         assertion(title,"2");
     }
     public void selectProduct() throws InterruptedException {
-        Thread.sleep(3000);
+        Thread.sleep(1000);
         clickFunction(product);
     }
 

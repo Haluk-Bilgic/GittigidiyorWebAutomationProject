@@ -74,28 +74,23 @@ public class ProductPage extends BasePage{
         }
     }
     public void clickAddSepet() throws InterruptedException {
-        Thread.sleep(3000);
-
+        Thread.sleep(2000);
         js = (JavascriptExecutor) driver;
         js.executeScript("window.scrollBy(0,800)");
-        Thread.sleep(3000);
         clickFunction(sepeteEkle);
     }
     public void verifyPrices(){
         assertion(Productprice,priceOnSepet.getText());
     }
     public void artır() throws InterruptedException {
-        Thread.sleep(3000);
+        Thread.sleep(2000);
         js = (JavascriptExecutor) driver;
         js.executeScript("window.scrollBy(0,700)");
-        Thread.sleep(3000);
         clickFunction(add);
     }
      public  void deleteSepet() throws InterruptedException{
          actionFunction(sepetim,driver);
-         Thread.sleep(3000);
          clickFunction(goSepet);
-         Thread.sleep(3000);
          clickFunction(deleteSepetButton);
      }
      public void verifySepetIsEmpty() {

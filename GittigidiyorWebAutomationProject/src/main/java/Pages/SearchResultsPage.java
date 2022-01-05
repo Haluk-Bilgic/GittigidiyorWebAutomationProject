@@ -28,7 +28,7 @@ public class SearchResultsPage extends BasePage{
     public void clickOnSecondPage() throws InterruptedException {
         js = (JavascriptExecutor) driver;
         js.executeScript("arguments[0].scrollIntoView();", secondPage);
-        Thread.sleep(3000);
+        Thread.sleep(2000);
         clickFunction(getSecondPage);
 
     }
