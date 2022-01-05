@@ -1,228 +1,28 @@
-Product price:10.849,99 TL
-    3D Desteği Yok
-Ağırlık 5
-Bellek Hızı 2666 MHz
-Bellek Yuvası 2
-Bluetooth Özelliği Var
-Boyutlar 100x100x100mm
-Çözünürlük (max) 1920 x 1080
-Dokunmatik Ekran Yok
-Ekran Boyutu 21,5 inç
-Ekran Kartı Bellek Tipi Onboard
-Ekran Kartı Kapasitesi Paylaşımlı
-Ekran Kartı Modeli Paylaşımlı
-Ekran Kartı Tipi Onboard
-Ekran Panel Tipi Belirtilmemiş
-Ethernet 10/100/1000
-Harddisk Kapasitesi Yok
-HDD Hızı Yok
-HDMI Var
-İşlemci Cache 4 MB Cache
-İşlemci Nesli 10.Nesil
-İşlemci Numarası 10110U
-İşlemci Tipi Intel Core i3
-İşletim Sistemi Yok (Free Dos)
-Kart Okuyucu 3 in 1 (SD, SDHC, MMC,)
-Klavye ve Mouse Var
-Kullanım Amacı Belirtilmemiş
-Optik Sürücü Yok
-Ram Tipi DDR4
-Sistem Belleği [RAM] 4 GB
-SSD Kapasitesi 256 GB
-Temel İşlemci Hızı 2,10 GHz
-USB 2.0 2 Adet
-USB 3.0 Yok
-USB 3.1 2 Adet
-Webcam Var
-Wireless Özelliği Var
-Diğer
-Garanti Süresi (Ay) 24
- 
-  3D Desteği Yok
-Ağırlık 5
-Bellek Hızı 2666 MHz
-Bellek Yuvası 2
-Bluetooth Özelliği Var
-Boyutlar 100x100x100mm
-Çözünürlük (max) 1920 x 1080
-Dokunmatik Ekran Yok
-Ekran Boyutu 21,5 inç
-Ekran Kartı Bellek Tipi Onboard
-Ekran Kartı Kapasitesi Paylaşımlı
-Ekran Kartı Modeli Paylaşımlı
-Ekran Kartı Tipi Onboard
-Ekran Panel Tipi Belirtilmemiş
-Ethernet 10/100/1000
-Harddisk Kapasitesi Yok
-HDD Hızı Yok
-HDMI Var
-İşlemci Cache 4 MB Cache
-İşlemci Nesli 10.Nesil
-İşlemci Numarası 10110U
-İşlemci Tipi Intel Core i3
-İşletim Sistemi Yok (Free Dos)
-Kart Okuyucu 3 in 1 (SD, SDHC, MMC,)
-Klavye ve Mouse Var
-Kullanım Amacı Belirtilmemiş
-Optik Sürücü Yok
-Ram Tipi DDR4
-Sistem Belleği [RAM] 4 GB
-SSD Kapasitesi 256 GB
-Temel İşlemci Hızı 2,10 GHz
-USB 2.0 2 Adet
-USB 3.0 Yok
-USB 3.1 2 Adet
-Webcam Var
-Wireless Özelliği Var
-Diğer
-Garanti Süresi (Ay) 24
-Yok
-5
-2666 MHz
-2
-Var
-100x100x100mm
-1920 x 1080
-Yok
-21,5 inç
-Onboard
-Paylaşımlı
-Paylaşımlı
-Onboard
-Belirtilmemiş
-10/100/1000
-Yok
-Yok
-Var
-4 MB Cache
-10.Nesil
-10110U
-Intel Core i3
-Yok (Free Dos)
-3 in 1 (SD, SDHC, MMC,)
-Var
-Belirtilmemiş
-Yok
-DDR4
-4 GB
-256 GB
-2,10 GHz
+Product price:4.499,00 TL
+İşlemci
+İşlemci Markası
+AMD
+İşlemci Serisi
+Athlon Silver
+İşlemci Modeli (CPU)
+AMD Athlon Silver 3050U
+İşlemci Çıkış Yılı
+2020 1. Çeyrek
+İşlemci Çekirdeği
 2 Adet
-Yok
+İşlemci Sanal Çekirdeği
 2 Adet
-Var
-Var
-24
- 
-  3D Desteği Yok
-Ağırlık 5
-Bellek Hızı 2666 MHz
-Bellek Yuvası 2
-Bluetooth Özelliği Var
-Boyutlar 100x100x100mm
-Çözünürlük (max) 1920 x 1080
-Dokunmatik Ekran Yok
-Ekran Boyutu 21,5 inç
-Ekran Kartı Bellek Tipi Onboard
-Ekran Kartı Kapasitesi Paylaşımlı
-Ekran Kartı Modeli Paylaşımlı
-Ekran Kartı Tipi Onboard
-Ekran Panel Tipi Belirtilmemiş
-Ethernet 10/100/1000
-Harddisk Kapasitesi Yok
-HDD Hızı Yok
-HDMI Var
-İşlemci Cache 4 MB Cache
-İşlemci Nesli 10.Nesil
-İşlemci Numarası 10110U
-İşlemci Tipi Intel Core i3
-İşletim Sistemi Yok (Free Dos)
-Kart Okuyucu 3 in 1 (SD, SDHC, MMC,)
-Klavye ve Mouse Var
-Kullanım Amacı Belirtilmemiş
-Optik Sürücü Yok
-Ram Tipi DDR4
-Sistem Belleği [RAM] 4 GB
-SSD Kapasitesi 256 GB
-Temel İşlemci Hızı 2,10 GHz
-USB 2.0 2 Adet
-USB 3.0 Yok
-USB 3.1 2 Adet
-Webcam Var
-Wireless Özelliği Var
-Diğer
-Garanti Süresi (Ay) 24
-Yok
-5
-2666 MHz
-2
-Var
-100x100x100mm
-1920 x 1080
-Yok
-21,5 inç
-Onboard
-Paylaşımlı
-Paylaşımlı
-Onboard
-Belirtilmemiş
-10/100/1000
-Yok
-Yok
-Var
-4 MB Cache
-10.Nesil
-10110U
-Intel Core i3
-Yok (Free Dos)
-3 in 1 (SD, SDHC, MMC,)
-Var
-Belirtilmemiş
-Yok
-DDR4
-4 GB
-256 GB
-2,10 GHz
-2 Adet
-Yok
-2 Adet
-Var
-Var
-24
-Yok
-5
-2666 MHz
-2
-Var
-100x100x100mm
-1920 x 1080
-Yok
-21,5 inç
-Onboard
-Paylaşımlı
-Paylaşımlı
-Onboard
-Belirtilmemiş
-10/100/1000
-Yok
-Yok
-Var
-4 MB Cache
-10.Nesil
-10110U
-Intel Core i3
-Yok (Free Dos)
-3 in 1 (SD, SDHC, MMC,)
-Var
-Belirtilmemiş
-Yok
-DDR4
-4 GB
-256 GB
-2,10 GHz
-2 Adet
-Yok
-2 Adet
-Var
-Var
-24
+İşlemci Temel Frekans
+2.30 GHz
+İşlemci Artırılmış Frekans
+3.20 GHz
+İşlemci Önbellek (Cache)
+4 MB
+İşlemci Litografi
+14 nm
+İşlemci TDP
+15 W
+Dahili Grafik Modeli
+AMD Radeon Graphics
+Dahili Grafik Temel Hız
+1100 MHz

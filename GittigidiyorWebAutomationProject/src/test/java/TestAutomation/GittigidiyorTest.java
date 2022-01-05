@@ -59,9 +59,9 @@ public class GittigidiyorTest {
 
         productPage.clickAddSepet();
 
-        // Log4j.info("Verifying prices");
+        Log4j.info("Verifying prices");
 
-        //  productPage.verifyPrices();
+        productPage.verifyPrices();
         productPage.artır();
 
         Log4j.info("Sepet emptying");
