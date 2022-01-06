@@ -8,11 +8,11 @@ import Pages.SecondSearchResultsPage;
 import org.junit.AfterClass;
 import org.junit.BeforeClass;
 import org.junit.Test;
+import org.junit.jupiter.api.DisplayName;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
 import utilities.Log4j;
 
-import java.util.concurrent.TimeUnit;
+
 
 public class GittigidiyorTest {
 
@@ -28,7 +28,8 @@ public class GittigidiyorTest {
         driver= BrowserSetup.startBrowser("chrome","https://www.gittigidiyor.com/");
     }
     @Test
-    public void test() throws InterruptedException{
+    @DisplayName("HomePage")
+    public void test1() throws InterruptedException {
 
         Log4j.startLog("Test is Starting");
 
@@ -38,18 +39,28 @@ public class GittigidiyorTest {
 
         homePage.typeTextBox("Bilgisayar");
         homePage.clickBulButton();
+    }
+    @Test
+    @DisplayName("SearchResultPage")
+    public void test2() throws InterruptedException {
 
         Log4j.info("Opening SecondPage");
-
         firstPage.clickOnSecondPage();
+    }
+    @Test
+    @DisplayName("SecondSearchResultPage")
+    public void test3() throws InterruptedException {
 
         Log4j.info("Verifying SecondPage");
-
         secondPage.verifySecondPage();
 
         Log4j.info("Selecting product");
 
         secondPage.selectProduct();
+    }
+    @Test
+    @DisplayName("ProductPage")
+    public void test4() throws InterruptedException{
 
         Log4j.info("Typing products information and price to file");
 
@@ -60,7 +71,6 @@ public class GittigidiyorTest {
         productPage.clickAddSepet();
 
         Log4j.info("Verifying prices");
-
         productPage.verifyPrices();
         productPage.artır();
 
@@ -68,7 +78,6 @@ public class GittigidiyorTest {
 
         productPage.deleteSepet();
         productPage.verifySepetIsEmpty();
-
     }
     @AfterClass
     public static void tearDown() throws InterruptedException {

@@ -10,9 +10,6 @@ import org.openqa.selenium.support.PageFactory;
 
 public class SecondSearchResultsPage extends BasePage{
 
-    WebDriver driver;
-    JavascriptExecutor js;
-
     public SecondSearchResultsPage(WebDriver driver){
         super(driver);
         PageFactory.initElements(driver,this);

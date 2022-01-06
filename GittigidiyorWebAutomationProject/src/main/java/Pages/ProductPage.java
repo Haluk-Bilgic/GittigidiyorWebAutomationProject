@@ -11,12 +11,9 @@ import utilities.TxtWrite;
 
 public class ProductPage extends BasePage{
 
-    WebDriver driver;
-    JavascriptExecutor js;
-
     public ProductPage(WebDriver driver){
         super(driver);
-        this.driver=driver;
+
         PageFactory.initElements(driver,this);
     }
     @FindBy(xpath = "//*[@id=\"catalog-info-details\"]/div[2]/div/table[2]")
@@ -48,8 +45,7 @@ public class ProductPage extends BasePage{
         }
     public void clickAddSepet() throws InterruptedException {
         Thread.sleep(2000);
-        js = (JavascriptExecutor) driver;
-        js.executeScript("window.scrollBy(0,800)");
+        jsFunction("window.scrollBy(0,800)");
         clickFunction(sepeteEkle);
     }
     public void verifyPrices(){
@@ -61,8 +57,7 @@ public class ProductPage extends BasePage{
     }
     public void artır() throws InterruptedException {
         Thread.sleep(2000);
-        js = (JavascriptExecutor) driver;
-        js.executeScript("window.scrollBy(0,700)");
+        jsFunction("window.scrollBy(0,700)");
         clickFunction(add);
     }
      public  void deleteSepet() throws InterruptedException{

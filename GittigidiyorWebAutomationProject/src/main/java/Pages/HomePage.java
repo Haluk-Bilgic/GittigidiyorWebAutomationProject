@@ -9,11 +9,8 @@ import org.openqa.selenium.support.PageFactory;
 
 public class HomePage extends BasePage {
 
-    public WebDriver driver;
-
     public  HomePage(WebDriver driver){
         super(driver);
-        this.driver=driver;
         PageFactory.initElements(driver,this);
     }
 
@@ -21,11 +18,9 @@ public class HomePage extends BasePage {
     @CacheLookup
     private WebElement textBox;
 
-
     @FindBy(css = ".qjixn8-0.sc-1bydi5r-0.gaMakD")
     @CacheLookup
     private  WebElement bulButton;
-
 
 
     public void typeTextBox(String message){
