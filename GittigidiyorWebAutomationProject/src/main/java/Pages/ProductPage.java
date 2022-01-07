@@ -16,7 +16,7 @@ public class ProductPage extends BasePage{
 
         PageFactory.initElements(driver,this);
     }
-    @FindBy(xpath = "//*[@id=\"catalog-info-details\"]/div[2]/div/table[2]")
+    @FindBy(id = "sp-productTabFeatures")
     private WebElement myTable;
     @FindBy(css = "#sp-price-lowPrice")
     private WebElement Productprice;
@@ -43,9 +43,9 @@ public class ProductPage extends BasePage{
 
             TxtWrite.ProductWriteToFile(myTable,Productprice,filePath);
         }
-    public void clickAddSepet() throws InterruptedException {
-        Thread.sleep(2000);
-        jsFunction("window.scrollBy(0,800)");
+    public void clickAddSepet(){
+        waitFor(2);
+        jsScrollBy("window.scrollBy(0,800)");
         clickFunction(sepeteEkle);
     }
     public void verifyPrices(){
@@ -55,13 +55,13 @@ public class ProductPage extends BasePage{
             System.out.println("****The price of Product on Sepet has changed****");
         }
     }
-    public void artır() throws InterruptedException {
-        Thread.sleep(2000);
-        jsFunction("window.scrollBy(0,700)");
+    public void artır() {
+        waitFor(2);
+        jsScrollBy("window.scrollBy(0,700)");
         clickFunction(add);
     }
      public  void deleteSepet() throws InterruptedException{
-         actionFunction(sepetim,driver);
+         actionFunction(sepetim);
          clickFunction(goSepet);
          clickFunction(deleteSepetButton);
      }

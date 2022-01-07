@@ -1,203 +1,30 @@
-2021-12-19 11:33:37 INFO  Log4j:9 - Test is Starting...
-2021-12-19 11:33:41 INFO  Log4j:15 - Opening HomePage
-2021-12-19 11:33:45 INFO  Log4j:15 - Opening SecondPage
-2021-12-19 11:33:48 INFO  Log4j:15 - Verifying SecondPage
-2021-12-19 11:33:48 INFO  Log4j:15 - Selecting product
-2021-12-19 11:33:55 INFO  Log4j:15 - Typing products information and price to file
-2021-12-19 11:33:56 INFO  Log4j:15 - The Product adding to Sepet
-2021-12-19 11:34:02 INFO  Log4j:15 - Verifying prices
-2021-12-19 11:34:09 INFO  Log4j:15 - Sepet emptying
-2021-12-19 11:34:18 INFO  Log4j:12 - Test is Ending...
-2022-01-04 19:10:01 INFO  Log4j:9 - Test is Starting...
-2022-01-04 19:10:06 INFO  Log4j:15 - Opening HomePage
-2022-01-04 19:10:09 INFO  Log4j:15 - Opening SecondPage
-2022-01-04 19:10:13 INFO  Log4j:15 - Verifying SecondPage
-2022-01-04 19:10:13 INFO  Log4j:15 - Selecting product
-2022-01-04 19:10:19 INFO  Log4j:15 - Typing products information and price to file
-2022-01-04 19:10:19 INFO  Log4j:15 - The Product adding to Sepet
-2022-01-04 19:10:25 INFO  Log4j:15 - Verifying prices
-2022-01-04 19:10:27 INFO  Log4j:12 - Test is Ending...
-2022-01-04 19:14:27 INFO  Log4j:9 - Test is Starting...
-2022-01-04 19:14:31 INFO  Log4j:15 - Opening HomePage
-2022-01-04 19:14:35 INFO  Log4j:15 - Opening SecondPage
-2022-01-04 19:14:38 INFO  Log4j:15 - Verifying SecondPage
-2022-01-04 19:14:38 INFO  Log4j:15 - Selecting product
-2022-01-04 19:14:45 INFO  Log4j:15 - Typing products information and price to file
-2022-01-04 19:14:45 INFO  Log4j:15 - The Product adding to Sepet
-2022-01-04 19:14:52 INFO  Log4j:15 - Verifying prices
-2022-01-04 19:14:52 INFO  Log4j:12 - Test is Ending...
-2022-01-04 19:19:33 INFO  Log4j:9 - Test is Starting...
-2022-01-04 19:19:40 INFO  Log4j:15 - Opening HomePage
-2022-01-04 19:19:44 INFO  Log4j:15 - Opening SecondPage
-2022-01-04 19:19:48 INFO  Log4j:15 - Verifying SecondPage
-2022-01-04 19:19:48 INFO  Log4j:15 - Selecting product
-2022-01-04 19:19:54 INFO  Log4j:15 - Typing products information and price to file
-2022-01-04 19:19:54 INFO  Log4j:15 - The Product adding to Sepet
-2022-01-04 19:20:00 INFO  Log4j:15 - Verifying prices
-2022-01-04 19:20:01 INFO  Log4j:12 - Test is Ending...
-2022-01-04 19:21:03 INFO  Log4j:9 - Test is Starting...
-2022-01-04 19:21:07 INFO  Log4j:15 - Opening HomePage
-2022-01-04 19:21:10 INFO  Log4j:15 - Opening SecondPage
-2022-01-04 19:21:13 INFO  Log4j:15 - Verifying SecondPage
-2022-01-04 19:21:13 INFO  Log4j:15 - Selecting product
-2022-01-04 19:21:19 INFO  Log4j:15 - Typing products information and price to file
-2022-01-04 19:21:19 INFO  Log4j:15 - The Product adding to Sepet
-2022-01-04 19:21:25 INFO  Log4j:15 - Verifying prices
-2022-01-04 19:21:31 INFO  Log4j:15 - Sepet emptying
-2022-01-04 19:21:40 INFO  Log4j:12 - Test is Ending...
-2022-01-04 19:26:16 INFO  Log4j:9 - Test is Starting...
-2022-01-04 19:26:20 INFO  Log4j:15 - Opening HomePage
-2022-01-04 19:26:23 INFO  Log4j:15 - Opening SecondPage
-2022-01-04 19:26:27 INFO  Log4j:15 - Verifying SecondPage
-2022-01-04 19:26:27 INFO  Log4j:15 - Selecting product
-2022-01-04 19:26:34 INFO  Log4j:15 - Typing products information and price to file
-2022-01-04 19:26:34 INFO  Log4j:15 - The Product adding to Sepet
-2022-01-04 19:26:40 INFO  Log4j:15 - Verifying prices
-2022-01-04 19:26:46 INFO  Log4j:15 - Sepet emptying
-2022-01-04 19:26:55 INFO  Log4j:12 - Test is Ending...
-2022-01-04 19:36:25 INFO  Log4j:9 - Test is Starting...
-2022-01-04 19:36:27 INFO  Log4j:15 - Opening HomePage
-2022-01-04 19:36:31 INFO  Log4j:15 - Opening SecondPage
-2022-01-04 19:36:34 INFO  Log4j:15 - Verifying SecondPage
-2022-01-04 19:36:34 INFO  Log4j:15 - Selecting product
-2022-01-04 19:36:40 INFO  Log4j:15 - Typing products information and price to file
-2022-01-04 19:36:40 INFO  Log4j:15 - The Product adding to Sepet
-2022-01-04 19:36:46 INFO  Log4j:15 - Verifying prices
-2022-01-04 19:36:53 INFO  Log4j:15 - Sepet emptying
-2022-01-04 19:37:01 INFO  Log4j:12 - Test is Ending...
-2022-01-04 19:46:53 INFO  Log4j:9 - Test is Starting...
-2022-01-04 19:46:54 INFO  Log4j:15 - Opening HomePage
-2022-01-04 19:46:58 INFO  Log4j:15 - Opening SecondPage
-2022-01-04 19:47:02 INFO  Log4j:15 - Verifying SecondPage
-2022-01-04 19:47:02 INFO  Log4j:15 - Selecting product
-2022-01-04 19:47:08 INFO  Log4j:15 - Typing products information and price to file
-2022-01-04 19:47:08 INFO  Log4j:15 - The Product adding to Sepet
-2022-01-04 19:47:14 INFO  Log4j:15 - Verifying prices
-2022-01-04 19:47:21 INFO  Log4j:15 - Sepet emptying
-2022-01-04 19:47:29 INFO  Log4j:12 - Test is Ending...
-2022-01-04 19:52:57 INFO  Log4j:9 - Test is Starting...
-2022-01-04 19:52:58 INFO  Log4j:15 - Opening HomePage
-2022-01-04 19:53:02 INFO  Log4j:15 - Opening SecondPage
-2022-01-04 19:53:02 INFO  Log4j:12 - Test is Ending...
-2022-01-04 19:55:14 INFO  Log4j:9 - Test is Starting...
-2022-01-04 19:55:14 INFO  Log4j:15 - Opening HomePage
-2022-01-04 19:55:18 INFO  Log4j:15 - Opening SecondPage
-2022-01-04 19:55:18 INFO  Log4j:12 - Test is Ending...
-2022-01-04 20:00:14 INFO  Log4j:15 - Opening SecondPage
-2022-01-04 20:00:14 INFO  Log4j:15 - Opening SecondPage
-2022-01-04 20:00:14 INFO  Log4j:15 - Typing products information and price to file
-2022-01-04 20:00:25 INFO  Log4j:15 - Opening SecondPage
-2022-01-04 20:00:25 INFO  Log4j:15 - Verifying SecondPage
-2022-01-04 20:00:37 INFO  Log4j:9 - Test is Starting...
-2022-01-04 20:00:37 INFO  Log4j:15 - Opening HomePage
-2022-01-04 20:00:47 INFO  Log4j:12 - Test is Ending...
-2022-01-04 20:35:14 INFO  Log4j:9 - Test is Starting...
-2022-01-04 20:35:14 INFO  Log4j:15 - Opening HomePage
-2022-01-04 20:37:23 INFO  Log4j:9 - Test is Starting...
-2022-01-04 20:37:23 INFO  Log4j:15 - Opening HomePage
-2022-01-04 20:37:27 INFO  Log4j:15 - Opening SecondPage
-2022-01-04 20:40:58 INFO  Log4j:9 - Test is Starting...
-2022-01-04 20:40:58 INFO  Log4j:15 - Opening HomePage
-2022-01-04 20:41:02 INFO  Log4j:15 - Opening SecondPage
-2022-01-04 20:41:05 INFO  Log4j:15 - Opening SecondPage
-2022-01-04 20:41:05 INFO  Log4j:15 - Verifying SecondPage
-2022-01-04 20:41:05 INFO  Log4j:15 - Selecting product
-2022-01-04 20:41:24 INFO  Log4j:9 - Test is Starting...
-2022-01-04 20:41:24 INFO  Log4j:15 - Opening HomePage
-2022-01-04 20:41:42 INFO  Log4j:15 - Opening SecondPage
-2022-01-04 20:41:45 INFO  Log4j:15 - Opening SecondPage
-2022-01-04 20:41:45 INFO  Log4j:15 - Verifying SecondPage
-2022-01-04 20:41:46 INFO  Log4j:15 - Selecting product
-2022-01-04 20:41:56 INFO  Log4j:15 - Opening SecondPage
-2022-01-04 20:41:56 INFO  Log4j:15 - Typing products information and price to file
-2022-01-04 20:41:58 INFO  Log4j:15 - The Product adding to Sepet
-2022-01-04 20:42:11 INFO  Log4j:15 - Sepet emptying
-2022-01-04 23:08:54 INFO  Log4j:9 - Test is Starting...
-2022-01-04 23:08:54 INFO  Log4j:15 - Opening HomePage
-2022-01-04 23:08:59 INFO  Log4j:15 - Opening SecondPage
-2022-01-04 23:09:02 INFO  Log4j:15 - Verifying SecondPage
-2022-01-04 23:09:02 INFO  Log4j:15 - Selecting product
-2022-01-04 23:09:08 INFO  Log4j:15 - Typing products information and price to file
-2022-01-04 23:09:10 INFO  Log4j:15 - The Product adding to Sepet
-2022-01-04 23:09:23 INFO  Log4j:15 - Sepet emptying
-2022-01-04 23:09:32 INFO  Log4j:12 - Test is Ending...
-2022-01-04 23:43:27 INFO  Log4j:9 - Test is Starting...
-2022-01-04 23:43:27 INFO  Log4j:15 - Opening HomePage
-2022-01-04 23:43:31 INFO  Log4j:15 - Opening SecondPage
-2022-01-04 23:43:34 INFO  Log4j:15 - Verifying SecondPage
-2022-01-04 23:43:34 INFO  Log4j:15 - Selecting product
-2022-01-04 23:43:38 INFO  Log4j:15 - Typing products information and price to file
-2022-01-04 23:43:40 INFO  Log4j:15 - The Product adding to Sepet
-2022-01-04 23:43:45 INFO  Log4j:15 - Sepet emptying
-2022-01-04 23:43:48 INFO  Log4j:12 - Test is Ending...
-2022-01-04 23:44:58 INFO  Log4j:9 - Test is Starting...
-2022-01-04 23:44:58 INFO  Log4j:15 - Opening HomePage
-2022-01-04 23:45:02 INFO  Log4j:15 - Opening SecondPage
-2022-01-04 23:45:05 INFO  Log4j:15 - Verifying SecondPage
-2022-01-04 23:45:05 INFO  Log4j:15 - Selecting product
-2022-01-04 23:45:09 INFO  Log4j:15 - Typing products information and price to file
-2022-01-04 23:45:11 INFO  Log4j:15 - The Product adding to Sepet
-2022-01-04 23:45:15 INFO  Log4j:15 - Sepet emptying
-2022-01-04 23:45:19 INFO  Log4j:12 - Test is Ending...
-2022-01-04 23:46:57 INFO  Log4j:9 - Test is Starting...
-2022-01-04 23:46:58 INFO  Log4j:15 - Opening HomePage
-2022-01-04 23:47:01 INFO  Log4j:15 - Opening SecondPage
-2022-01-04 23:47:04 INFO  Log4j:15 - Verifying SecondPage
-2022-01-04 23:47:04 INFO  Log4j:15 - Selecting product
-2022-01-04 23:47:08 INFO  Log4j:15 - Typing products information and price to file
-2022-01-04 23:47:10 INFO  Log4j:15 - The Product adding to Sepet
-2022-01-04 23:47:14 INFO  Log4j:15 - Sepet emptying
-2022-01-04 23:47:17 INFO  Log4j:12 - Test is Ending...
-2022-01-05 14:24:36 INFO  Log4j:9 - Test is Starting...
-2022-01-05 14:24:37 INFO  Log4j:15 - Opening HomePage
-2022-01-05 14:24:41 INFO  Log4j:15 - Opening SecondPage
-2022-01-05 14:24:44 INFO  Log4j:15 - Verifying SecondPage
-2022-01-05 14:24:44 INFO  Log4j:15 - Selecting product
-2022-01-05 14:24:48 INFO  Log4j:15 - Typing products information and price to file
-2022-01-05 14:24:58 INFO  Log4j:12 - Test is Ending...
-2022-01-05 14:25:18 INFO  Log4j:9 - Test is Starting...
-2022-01-05 14:25:19 INFO  Log4j:15 - Opening HomePage
-2022-01-05 14:25:23 INFO  Log4j:15 - Opening SecondPage
-2022-01-05 14:25:25 INFO  Log4j:15 - Verifying SecondPage
-2022-01-05 14:25:25 INFO  Log4j:15 - Selecting product
-2022-01-05 14:25:29 INFO  Log4j:15 - Typing products information and price to file
-2022-01-05 14:25:39 INFO  Log4j:12 - Test is Ending...
-2022-01-05 14:46:28 INFO  Log4j:9 - Test is Starting...
-2022-01-05 14:46:29 INFO  Log4j:15 - Opening HomePage
-2022-01-05 14:46:32 INFO  Log4j:15 - Opening SecondPage
-2022-01-05 14:46:35 INFO  Log4j:15 - Verifying SecondPage
-2022-01-05 14:46:35 INFO  Log4j:15 - Selecting product
-2022-01-05 14:46:39 INFO  Log4j:15 - Typing products information and price to file
-2022-01-05 14:46:40 INFO  Log4j:15 - The Product adding to Sepet
-2022-01-05 14:46:42 INFO  Log4j:15 - Verifying prices
-2022-01-05 14:46:43 INFO  Log4j:12 - Test is Ending...
-2022-01-05 14:48:03 INFO  Log4j:9 - Test is Starting...
-2022-01-05 14:48:04 INFO  Log4j:15 - Opening HomePage
-2022-01-05 14:48:07 INFO  Log4j:15 - Opening SecondPage
-2022-01-05 14:48:10 INFO  Log4j:15 - Verifying SecondPage
-2022-01-05 14:48:10 INFO  Log4j:15 - Selecting product
-2022-01-05 14:48:14 INFO  Log4j:15 - Typing products information and price to file
-2022-01-05 14:48:15 INFO  Log4j:15 - The Product adding to Sepet
-2022-01-05 14:48:17 INFO  Log4j:15 - Verifying prices
-2022-01-05 14:48:20 INFO  Log4j:15 - Sepet emptying
-2022-01-05 14:48:23 INFO  Log4j:12 - Test is Ending...
-2022-01-05 14:54:01 INFO  Log4j:9 - Test is Starting...
-2022-01-05 14:54:02 INFO  Log4j:15 - Opening HomePage
-2022-01-05 14:54:06 INFO  Log4j:15 - Opening SecondPage
-2022-01-05 14:54:08 INFO  Log4j:15 - Verifying SecondPage
-2022-01-05 14:54:09 INFO  Log4j:15 - Selecting product
-2022-01-05 14:54:12 INFO  Log4j:15 - Typing products information and price to file
-2022-01-05 14:54:13 INFO  Log4j:15 - The Product adding to Sepet
-2022-01-05 14:54:15 INFO  Log4j:15 - Verifying prices
-2022-01-05 14:54:18 INFO  Log4j:15 - Sepet emptying
-2022-01-05 14:54:21 INFO  Log4j:12 - Test is Ending...
-2022-01-05 15:40:22 INFO  Log4j:9 - Test is Starting...
-2022-01-05 15:40:23 INFO  Log4j:15 - Opening HomePage
-2022-01-05 15:40:27 INFO  Log4j:15 - Opening SecondPage
-2022-01-05 15:40:29 INFO  Log4j:15 - Verifying SecondPage
-2022-01-05 15:40:30 INFO  Log4j:15 - Selecting product
-2022-01-05 15:40:34 INFO  Log4j:15 - Typing products information and price to file
-2022-01-05 15:40:35 INFO  Log4j:15 - The Product adding to Sepet
-2022-01-05 15:40:37 INFO  Log4j:15 - Verifying prices
-2022-01-05 15:40:41 INFO  Log4j:15 - Sepet emptying
-2022-01-05 15:40:44 INFO  Log4j:12 - Test is Ending...
+2022-01-06 18:36:20 INFO  Log4j:9 - Test is Starting...
+2022-01-06 18:36:21 INFO  Log4j:15 - Opening HomePage
+2022-01-06 18:36:25 INFO  Log4j:15 - Opening SecondPage
+2022-01-06 18:36:29 INFO  Log4j:15 - Verifying SecondPage
+2022-01-06 18:36:29 INFO  Log4j:15 - Selecting product
+2022-01-06 18:36:37 INFO  Log4j:15 - Typing products information and price to file
+2022-01-06 18:36:37 INFO  Log4j:15 - The Product adding to Sepet
+2022-01-06 18:36:41 INFO  Log4j:15 - Verifying prices
+2022-01-06 18:36:47 INFO  Log4j:15 - Sepet emptying
+2022-01-06 18:36:50 INFO  Log4j:12 - Test is Ending...
+2022-01-06 18:37:26 INFO  Log4j:9 - Test is Starting...
+2022-01-06 18:37:27 INFO  Log4j:15 - Opening HomePage
+2022-01-06 18:37:30 INFO  Log4j:15 - Opening SecondPage
+2022-01-06 18:37:35 INFO  Log4j:15 - Verifying SecondPage
+2022-01-06 18:37:35 INFO  Log4j:15 - Selecting product
+2022-01-06 18:37:42 INFO  Log4j:15 - Typing products information and price to file
+2022-01-06 18:37:42 INFO  Log4j:15 - The Product adding to Sepet
+2022-01-06 18:37:47 INFO  Log4j:15 - Verifying prices
+2022-01-06 18:37:52 INFO  Log4j:15 - Sepet emptying
+2022-01-06 18:37:55 INFO  Log4j:12 - Test is Ending...
+2022-01-06 18:40:28 INFO  Log4j:9 - Test is Starting...
+2022-01-06 18:40:28 INFO  Log4j:15 - Opening HomePage
+2022-01-06 18:40:31 INFO  Log4j:15 - Opening SecondPage
+2022-01-06 18:40:36 INFO  Log4j:15 - Verifying SecondPage
+2022-01-06 18:40:36 INFO  Log4j:15 - Selecting product
+2022-01-06 18:40:42 INFO  Log4j:15 - Typing products information and price to file
+2022-01-06 18:40:43 INFO  Log4j:15 - The Product adding to Sepet
+2022-01-06 18:40:47 INFO  Log4j:15 - Verifying prices
+2022-01-06 18:40:53 INFO  Log4j:15 - Sepet emptying
+2022-01-06 18:40:56 INFO  Log4j:12 - Test is Ending...

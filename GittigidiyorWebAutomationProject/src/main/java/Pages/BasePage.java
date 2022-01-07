@@ -38,20 +38,34 @@ public abstract class BasePage {
         Assert.assertEquals(actual.getText(),expected);
         System.out.println("My Message:"+actual.getText());
     }
-    public void jsFunction(String parameter){
+    public void jsScrollBy(String parameter){
         JavascriptExecutor js = (JavascriptExecutor) driver;
         js.executeScript(parameter);
     }
-    public void jsWithElment(String parameter,WebElement element){
+    public void jsScrollToElement(String parameter,WebElement element){
         JavascriptExecutor jselement = (JavascriptExecutor) driver;
         jselement.executeScript(parameter,element);
     }
-    public void actionFunction(WebElement element, WebDriver driver){
-        Actions builder=new Actions(driver);
-        Action mouse=builder
-                .moveToElement(element)
-                .build();
-        mouse.perform();
+    public void actionFunction(WebElement element){
+        Actions actions = new Actions(driver);
+        actions.moveToElement(element).perform();
+    }
+    public static void waitFor(int seconds) {
+        try {
+            Thread.sleep(seconds * 2000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+    }
+    public void switchToWindow(String targetTitle) {
+        String origin =driver.getWindowHandle();
+        for (String handle : driver.getWindowHandles()) {
+            driver.switchTo().window(handle);
+            if (driver.getTitle().equals(targetTitle)) {
+                return;
+            }
+        }
+        driver.switchTo().window(origin);
     }
 
 }

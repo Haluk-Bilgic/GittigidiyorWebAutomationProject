@@ -1,7 +1,6 @@
 package Pages;
 
 
-import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -23,8 +22,8 @@ public class SecondSearchResultsPage extends BasePage{
     public void verifySecondPage(){
         assertion(title,"2");
     }
-    public void selectProduct() throws InterruptedException {
-        Thread.sleep(1000);
+    public void selectProduct()  {
+        waitFor(2);
         clickFunction(product);
     }
 

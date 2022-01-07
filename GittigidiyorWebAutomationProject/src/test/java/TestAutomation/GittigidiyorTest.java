@@ -33,8 +33,6 @@ public class GittigidiyorTest {
 
         Log4j.startLog("Test is Starting");
 
-        driver.get("https://www.gittigidiyor.com/");
-
         Log4j.info("Opening HomePage");
 
         homePage.typeTextBox("Bilgisayar");

@@ -20,9 +20,9 @@ public class SearchResultsPage extends BasePage{
     private  WebElement getSecondPage;
 
 
-    public void clickOnSecondPage() throws InterruptedException {
-        Thread.sleep(2000);
-        jsWithElment("arguments[0].scrollIntoView();",secondPage);
+    public void clickOnSecondPage() {
+        waitFor(2);
+        jsScrollToElement("arguments[0].scrollIntoView();",secondPage);
         clickFunction(getSecondPage);
     }
 

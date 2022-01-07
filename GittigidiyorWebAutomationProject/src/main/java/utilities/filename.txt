@@ -1,28 +1,37 @@
-Product price:4.499,00 TL
-İşlemci
+Product price:6.756,46 TL
+Harici Ekran Kartı
+Var
+Klavye & Mouse
+Var
 İşlemci Markası
-AMD
+Intel
+Kullanım Amacı
+Oyun
 İşlemci Serisi
-Athlon Silver
-İşlemci Modeli (CPU)
-AMD Athlon Silver 3050U
-İşlemci Çıkış Yılı
-2020 1. Çeyrek
-İşlemci Çekirdeği
-2 Adet
-İşlemci Sanal Çekirdeği
-2 Adet
-İşlemci Temel Frekans
-2.30 GHz
-İşlemci Artırılmış Frekans
-3.20 GHz
-İşlemci Önbellek (Cache)
-4 MB
-İşlemci Litografi
-14 nm
-İşlemci TDP
-15 W
-Dahili Grafik Modeli
-AMD Radeon Graphics
-Dahili Grafik Temel Hız
-1100 MHz
+Intel Core i7
+Sabit Disk (HDD) Boyutu
+500 GB
+Ekran
+Var
+Ekran Boyutu
+23.8 İnç
+Ekran Kartı Markası
+NVIDIA
+Durum
+Yeni
+Bellek Türü
+DDR3
+Kasa Tipi
+Mid-Tower
+Ekran Kartı Bellek Miktarı
+4 GB
+İşletim Sistemi
+FreeDOS (İşletim Sistemi Yok)
+Bellek (RAM)
+8 GB
+Sabit Disk (SSD) Boyutu
+240 GB
+Model
+Bulamadım
+Marka
+Bulamadım
