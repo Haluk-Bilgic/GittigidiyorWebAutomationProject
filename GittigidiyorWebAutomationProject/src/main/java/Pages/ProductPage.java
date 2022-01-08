@@ -7,6 +7,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import utilities.Log4j;
 import utilities.TxtWrite;
 
 public class ProductPage extends BasePage{
@@ -37,7 +38,7 @@ public class ProductPage extends BasePage{
 
 
     public void ProductInfoWriteToFile() {
-
+        Log4j.info("Typing products information and price to file");
         String filePath="C:\\Users\\ahbil\\my\\GittigidiyorWebAutomationProject\\" +
                 "GittigidiyorWebAutomationProject\\src\\main\\java\\utilities\\filename.txt";
 
@@ -47,12 +48,15 @@ public class ProductPage extends BasePage{
         waitFor(2);
         jsScrollBy("window.scrollBy(0,800)");
         clickFunction(sepeteEkle);
+        Log4j.info("The Product adding to Sepet");
     }
     public void verifyPrices(){
         try {
             assertion(Productprice,priceOnSepet.getText());
+            Log4j.info("Verifying prices");
         }catch (AssertionError exception){
             System.out.println("****The price of Product on Sepet has changed****");
+            Log4j.error("Prices are not the same");
         }
     }
     public void artır() {
@@ -64,6 +68,7 @@ public class ProductPage extends BasePage{
          actionFunction(sepetim);
          clickFunction(goSepet);
          clickFunction(deleteSepetButton);
+         Log4j.info("Sepet emptying");
      }
      public void verifySepetIsEmpty() {
         assertion(text,"Ürün Sepetten Silindi");

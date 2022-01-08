@@ -18,71 +18,52 @@ public class GittigidiyorTest {
 
     public static WebDriver driver;
 
-    HomePage homePage=new HomePage(driver);
-    SearchResultsPage firstPage=new SearchResultsPage(driver);
-    SecondSearchResultsPage secondPage=new SecondSearchResultsPage(driver);
-    ProductPage productPage=new ProductPage(driver);
+    HomePage homePage;
+    SearchResultsPage firstPage;
+    SecondSearchResultsPage secondPage;
+    ProductPage productPage;
 
     @BeforeClass
     public static void setUp() {
         driver= BrowserSetup.startBrowser("chrome","https://www.gittigidiyor.com/");
+        Log4j.startLog("Test is Starting");
     }
     @Test
     @DisplayName("HomePage")
     public void test1() throws InterruptedException {
-
-        Log4j.startLog("Test is Starting");
-
-        Log4j.info("Opening HomePage");
-
+        homePage=new HomePage(driver);
         homePage.typeTextBox("Bilgisayar");
         homePage.clickBulButton();
     }
     @Test
     @DisplayName("SearchResultPage")
     public void test2() throws InterruptedException {
-
-        Log4j.info("Opening SecondPage");
+        firstPage=new SearchResultsPage(driver);
         firstPage.clickOnSecondPage();
     }
     @Test
     @DisplayName("SecondSearchResultPage")
     public void test3() throws InterruptedException {
-
-        Log4j.info("Verifying SecondPage");
+        secondPage=new SecondSearchResultsPage(driver);
         secondPage.verifySecondPage();
-
-        Log4j.info("Selecting product");
-
         secondPage.selectProduct();
     }
     @Test
     @DisplayName("ProductPage")
     public void test4() throws InterruptedException{
-
-        Log4j.info("Typing products information and price to file");
-
+        productPage=new ProductPage(driver);
         productPage.ProductInfoWriteToFile();
-
-        Log4j.info("The Product adding to Sepet");
-
         productPage.clickAddSepet();
-
-        Log4j.info("Verifying prices");
         productPage.verifyPrices();
         productPage.artır();
-
-        Log4j.info("Sepet emptying");
-
         productPage.deleteSepet();
         productPage.verifySepetIsEmpty();
     }
     @AfterClass
     public static void tearDown() throws InterruptedException {
-        Log4j.endLog("Test is Ending");
-        Thread.sleep(3000);
+        Thread.sleep(2000);
         driver.quit();
-
+        Log4j.endLog("Test is Ending");
     }
 
 }

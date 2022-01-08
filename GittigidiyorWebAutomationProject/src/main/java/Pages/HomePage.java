@@ -6,6 +6,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.CacheLookup;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import utilities.Log4j;
 
 public class HomePage extends BasePage {
 
@@ -24,6 +25,7 @@ public class HomePage extends BasePage {
 
 
     public void typeTextBox(String message){
+        Log4j.info("Opening HomePage");
         sendKeysFunction(textBox,message);
     }
     public void clickBulButton(){

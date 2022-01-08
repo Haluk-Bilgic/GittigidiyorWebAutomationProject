@@ -5,6 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import utilities.Log4j;
 
 public class SearchResultsPage extends BasePage{
 
@@ -24,6 +25,7 @@ public class SearchResultsPage extends BasePage{
         waitFor(2);
         jsScrollToElement("arguments[0].scrollIntoView();",secondPage);
         clickFunction(getSecondPage);
+        Log4j.info("Opening SecondPage");
     }
 
 

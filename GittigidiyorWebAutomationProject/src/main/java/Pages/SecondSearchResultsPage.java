@@ -5,6 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import utilities.Log4j;
 
 
 public class SecondSearchResultsPage extends BasePage{
@@ -20,11 +21,13 @@ public class SecondSearchResultsPage extends BasePage{
 
 
     public void verifySecondPage(){
+        Log4j.info("Verifying SecondPage");
         assertion(title,"2");
     }
     public void selectProduct()  {
         waitFor(2);
         clickFunction(product);
+        Log4j.info("Selecting product");
     }
 
 

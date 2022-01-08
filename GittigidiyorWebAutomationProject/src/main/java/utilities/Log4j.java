@@ -17,5 +17,8 @@ public class Log4j {
     public static void warn (String message) {
         Log.warn(message);
     }
+    public static void error (String message) {
+        Log.error(message);
+    }
 
 }

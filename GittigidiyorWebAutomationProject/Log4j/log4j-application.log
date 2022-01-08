@@ -28,3 +28,23 @@
 2022-01-06 18:40:47 INFO  Log4j:15 - Verifying prices
 2022-01-06 18:40:53 INFO  Log4j:15 - Sepet emptying
 2022-01-06 18:40:56 INFO  Log4j:12 - Test is Ending...
+2022-01-07 17:22:20 INFO  Log4j:9 - Test is Starting...
+2022-01-07 17:22:20 INFO  Log4j:15 - Opening HomePage
+2022-01-07 17:22:24 INFO  Log4j:15 - Opening SecondPage
+2022-01-07 17:22:27 INFO  Log4j:15 - Verifying SecondPage
+2022-01-07 17:22:27 INFO  Log4j:15 - Selecting product
+2022-01-07 17:22:32 INFO  Log4j:15 - Typing products information and price to file
+2022-01-07 17:22:33 INFO  Log4j:15 - The Product adding to Sepet
+2022-01-07 17:22:35 INFO  Log4j:15 - Verifying prices
+2022-01-07 17:22:38 INFO  Log4j:15 - Sepet emptying
+2022-01-07 17:22:41 INFO  Log4j:12 - Test is Ending...
+2022-01-08 17:53:11 INFO  Log4j:9 - Test is Starting...
+2022-01-08 17:53:11 INFO  Log4j:15 - Opening HomePage
+2022-01-08 17:53:18 INFO  Log4j:15 - Opening SecondPage
+2022-01-08 17:53:18 INFO  Log4j:15 - Verifying SecondPage
+2022-01-08 17:53:25 INFO  Log4j:15 - Selecting product
+2022-01-08 17:53:25 INFO  Log4j:15 - Typing products information and price to file
+2022-01-08 17:53:29 INFO  Log4j:15 - The Product adding to Sepet
+2022-01-08 17:53:30 INFO  Log4j:15 - Verifying prices
+2022-01-08 17:53:35 INFO  Log4j:15 - Sepet emptying
+2022-01-08 17:53:38 INFO  Log4j:12 - Test is Ending...

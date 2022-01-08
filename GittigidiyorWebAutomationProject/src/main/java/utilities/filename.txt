@@ -1,4 +1,4 @@
-Product price:6.756,46 TL
+Product price:6.669,75 TL
 Harici Ekran Kartı
 Var
 Klavye & Mouse
@@ -8,17 +8,23 @@ Intel
 Kullanım Amacı
 Oyun
 İşlemci Serisi
-Intel Core i7
+Intel Core i5
 Sabit Disk (HDD) Boyutu
-500 GB
+320 GB
+Menşei
+Diğer
 Ekran
 Var
 Ekran Boyutu
-23.8 İnç
+20.7 İnç
 Ekran Kartı Markası
-NVIDIA
+AMD
 Durum
 Yeni
+Garanti Süresi
+2 Yıl
+Garanti
+Var, Başlamamış
 Bellek Türü
 DDR3
 Kasa Tipi
@@ -28,10 +34,12 @@ Ekran Kartı Bellek Miktarı
 İşletim Sistemi
 FreeDOS (İşletim Sistemi Yok)
 Bellek (RAM)
-8 GB
+16 GB
 Sabit Disk (SSD) Boyutu
-240 GB
+256 GB
 Model
 Bulamadım
+İşlemci Nesli
+3. Nesil
 Marka
 Bulamadım
