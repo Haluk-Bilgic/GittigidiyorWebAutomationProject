@@ -14,7 +14,6 @@ public class ProductPage extends BasePage{
 
     public ProductPage(WebDriver driver){
         super(driver);
-
         PageFactory.initElements(driver,this);
     }
     @FindBy(id = "sp-productTabFeatures")
@@ -64,7 +63,7 @@ public class ProductPage extends BasePage{
         jsScrollBy("window.scrollBy(0,700)");
         clickFunction(add);
     }
-     public  void deleteSepet() throws InterruptedException{
+     public  void deleteSepet(){
          actionFunction(sepetim);
          clickFunction(goSepet);
          clickFunction(deleteSepetButton);
