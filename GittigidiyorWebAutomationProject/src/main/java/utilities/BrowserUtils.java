@@ -1,14 +1,17 @@
 package utilities;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
+import org.apache.commons.io.FileUtils;
+import org.openqa.selenium.*;
 
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
 import java.util.List;
 
-public class TxtWrite {
+public class BrowserUtils {
+
 
 
     public static void ProductWriteToFile(WebElement myTable,WebElement Productprice,String path){
@@ -41,5 +44,23 @@ public class TxtWrite {
             System.out.println("An error occurred.");
             e.printStackTrace();
         }
+    }
+
+    public static String getScreenshot(String name,WebDriver driver) {
+
+        TakesScreenshot ts= ((TakesScreenshot)driver);
+        File source = ts.getScreenshotAs(OutputType.FILE);
+        String target = "C:/Users/ahbil/my/GittigidiyorWebAutomationProject/GittigidiyorWebAutomationProject" +
+                "/Test-output/Screenshots/" + name + ".png";
+        File finalDestination = new File(target);
+
+        try {
+            FileUtils.copyFile(source, finalDestination);
+            Log4j.info("Screenshot taken");
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return target;
+
     }
 }

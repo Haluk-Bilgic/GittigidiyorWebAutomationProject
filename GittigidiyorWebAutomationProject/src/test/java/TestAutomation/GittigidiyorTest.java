@@ -40,10 +40,11 @@ public class GittigidiyorTest extends BaseTest {
     @DisplayName("ProductPage")
     public void test4(){
         productPage=new ProductPage(driver);
+        productPage.Screenshot();
         productPage.ProductInfoWriteToFile();
         productPage.clickAddSepet();
         productPage.verifyPrices();
-        productPage.artır();
+        productPage.increaseProductQuantity();
         productPage.deleteSepet();
         productPage.verifySepetIsEmpty();
     }

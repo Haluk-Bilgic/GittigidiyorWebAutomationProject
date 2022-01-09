@@ -1,16 +1,15 @@
 package Pages;
 
 
-import org.junit.ComparisonFailure;
-import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import utilities.Log4j;
-import utilities.TxtWrite;
+import utilities.BrowserUtils;
 
 public class ProductPage extends BasePage{
+
 
     public ProductPage(WebDriver driver){
         super(driver);
@@ -35,13 +34,16 @@ public class ProductPage extends BasePage{
     @FindBy(xpath = "/html/body/div[5]/div/div/div[2]/span")
     private WebElement text;
 
-
+    public void Screenshot(){
+       waitFor(2);
+        BrowserUtils.getScreenshot("ProductImage",driver);
+    }
     public void ProductInfoWriteToFile() {
         Log4j.info("Typing products information and price to file");
         String filePath="C:\\Users\\ahbil\\my\\GittigidiyorWebAutomationProject\\" +
-                "GittigidiyorWebAutomationProject\\src\\main\\java\\utilities\\filename.txt";
+                "GittigidiyorWebAutomationProject\\Test-output\\Productİnfo.txt";
 
-            TxtWrite.ProductWriteToFile(myTable,Productprice,filePath);
+            BrowserUtils.ProductWriteToFile(myTable,Productprice,filePath);
         }
     public void clickAddSepet(){
         waitFor(2);
@@ -58,7 +60,7 @@ public class ProductPage extends BasePage{
             Log4j.error("Prices are not the same");
         }
     }
-    public void artır() {
+    public void increaseProductQuantity() {
         waitFor(2);
         jsScrollBy("window.scrollBy(0,700)");
         clickFunction(add);
