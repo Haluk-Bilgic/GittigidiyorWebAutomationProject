@@ -5,8 +5,8 @@ This project is a case study that tests main functions of some pages on Gittigid
 * Selenium WebDriver
 * Maven
 * Junit
-* POM Design Pattern > Page Object Model according to which I created a separate class for the pages of
-my application---
+* POM Design Pattern
+> Page Object Model according to which I created a separate class for the pages of my application---
 * Page Factory Design---a design which makes it easy to access the page object class---
 * log4j for logging purpose
 * Intellij IDE
