@@ -1,6 +1,6 @@
 # Gittigidiyor Case Study
 This project is a case study that tests main functions of some pages on Gittigidiyor fo Web UI Automation.
-##Language and Frameworks
+## Language and Frameworks
 * Java
 * Selenium WebDriver
 * Maven
@@ -11,7 +11,7 @@ my application---
 * log4j for logging purpose
 * Intellij IDE
 
-##Test Steps
+## Test Steps
 
 - The website www.gittigidiyor.com opens.
 - Bilgisayar word is entered in the search box.
