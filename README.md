@@ -11,6 +11,7 @@ This project is a case study that tests main functions of some pages on Gittigid
 >     Page Factory is a design which makes it easy to access the page object class---
 * log4j for logging purpose
 * Intellij IDE
+* Chrome and Firefox as a Browser
 
 ## Test Steps
 
