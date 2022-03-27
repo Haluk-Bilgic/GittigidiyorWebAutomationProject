@@ -16,7 +16,7 @@ This project is a case study that tests main functions of some pages on Gittigid
 ## Test Steps
 
 - The website www.gittigidiyor.com opens.
-- Bilgisayar word is entered in the search box.
+- Computer word is entered in the search box.
 - The second page opens from the search results page.
 - It is checked that the 2nd page is opened.
 - A random product is selected from the exhibited products according to the result.
