@@ -1,5 +1,5 @@
 # Gittigidiyor Case Study
-This project is a case study that tests main functions of some pages on Gittigidiyor fo Web UI Automation.
+This project is a case study that tests main functions of some pages on Gittigidiyor for Web UI Automation.
 ## Language and Frameworks
 * Java
 * Selenium WebDriver
